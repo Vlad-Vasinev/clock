@@ -1,0 +1,29 @@
+.timer {
+    color: #2da3f7;
+    font-size: 120px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons button {
+    box-sizing: border-box;
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+    color: #63228c;
+    background-color: #938fff;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.buttons button:hover {
+    color: #938fff;
+    background-color: #63228c;
+}
